@@ -1,0 +1,19 @@
+# Sigmoid Binary Classification System
+# Python Dependencies
+
+# Numerical computing
+numpy>=1.20.0
+
+# Data manipulation and analysis
+pandas>=1.3.0
+
+# Data visualization
+matplotlib>=3.4.0
+
+# Table formatting for markdown output
+tabulate>=0.8.9
+
+# Optional: for testing (uncomment if needed)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0

@@ -1,0 +1,39 @@
+[project]
+name = "sigmoid-classifier"
+version = "1.0.0"
+description = "Binary classification system using logistic regression with sigmoid activation"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "ML Developer", email = "dev@example.com"}
+]
+keywords = ["machine-learning", "classification", "logistic-regression", "sigmoid"]
+
+dependencies = [
+    "numpy>=1.20.0",
+    "pandas>=1.3.0",
+    "matplotlib>=3.4.0",
+    "tabulate>=0.8.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/user/sigmoid-classifier"
+Documentation = "https://github.com/user/sigmoid-classifier#readme"
+Repository = "https://github.com/user/sigmoid-classifier.git"
+Issues = "https://github.com/user/sigmoid-classifier/issues"
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+addopts = "-v"
