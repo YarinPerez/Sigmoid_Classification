@@ -28,13 +28,6 @@ wheels/
 *.egg
 MANIFEST
 
-# Generated Output Files
-dataset.csv
-predictions.csv
-classification_plot.png
-training_convergence.png
-analysis.md
-
 # IDE and Editor Files
 .vscode/
 .idea/
